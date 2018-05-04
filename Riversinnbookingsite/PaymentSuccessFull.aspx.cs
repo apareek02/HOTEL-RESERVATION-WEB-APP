@@ -49,8 +49,7 @@ namespace RiversInnBookingWebsite
 
                 string constr = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
-                using (System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(constr))
-                {
+                
                 using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("INSERT  INTO Booking (Guest_id,Total_Adult,Total_Child,Check_In_Date,Check_Out_Date,Booking_Date) Values(@gid,@ta,@tc,@cin,@cout,@bdate)"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
@@ -63,13 +62,13 @@ namespace RiversInnBookingWebsite
                             command.Parameters.AddWithValue("@cin", cin);
                             command.Parameters.AddWithValue("@cout", cout);
                             command.Parameters.AddWithValue("@bdate", bdate);
-                            command.Connection = connection;
-                        connection.Open();
+                            command.Connection = con;
+                        con.Open();
                             command.ExecuteScalar();
-                        connection.Close();
+                        con.Close();
                     }
                 }
-            }
+            
             deleteTempBookingData();
             Response.Redirect("GenerateReport.aspx");
         }
