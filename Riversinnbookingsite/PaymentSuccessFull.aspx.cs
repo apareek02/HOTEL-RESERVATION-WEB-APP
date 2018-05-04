@@ -51,7 +51,7 @@ namespace RiversInnBookingWebsite
 
                 using (System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(constr))
                 {
-                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("INSERT  INTO Booking (Guest_id,Total_Adult,Total_Child,Check_In_Date,Check_Out_Date,Booking_Date) Values(@bid,@gid,@ta,@tc,@cin,@cout,@bdate)"))
+                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("INSERT  INTO Booking (Guest_id,Total_Adult,Total_Child,Check_In_Date,Check_Out_Date,Booking_Date) Values(@gid,@ta,@tc,@cin,@cout,@bdate)"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
                     {
