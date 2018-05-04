@@ -18,10 +18,6 @@ namespace Rough_bootstap
         {
            if(!IsPostBack){
 
-                if (this.Page.User.Identity.IsAuthenticated)
-                {
-                    Response.Redirect(FormsAuthentication.DefaultUrl);
-                }
 
             }
         }
