@@ -82,12 +82,28 @@ namespace RiversInnBookingWebsite
 
             using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
             {
-                using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("INSERT INTO Guest_Details VALUES(@guestid,@FirstName, @LastName,@EmailId,@Username,@Address,@City,@State,@Zip)"))
+                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("Delete from Guest_Details where Guest_ID= @guest"))
+                {
+                    using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
+                    {
+                        command.CommandType = System.Data.CommandType.Text;
+                        command.Parameters.AddWithValue("@guestid", guestid);
+                        command.Connection = con;
+                        con.Open();
+                        command.ExecuteScalar();
+                        con.Close();
+
+                    }
+                }
+            }
+            using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
+            {
+                    using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("INSERT INTO Guest_Details VALUES(@guestid,@FirstName, @LastName,@EmailId,@Username,@Address,@City,@State,@Zip)"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
                     {
                         cmd.CommandType = System.Data.CommandType.Text;
-                        cmd.Parameters.AddWithValue("@guestid",guestid);
+                        cmd.Parameters.AddWithValue("@guestid", guestid);
                         cmd.Parameters.AddWithValue("@Username", this.Page.User.ToString());
                         cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
                         cmd.Parameters.AddWithValue("@FirstName", txtName.Text);

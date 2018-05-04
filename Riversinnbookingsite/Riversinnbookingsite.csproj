@@ -88,6 +88,7 @@
     <Content Include="images\.DS_Store" />
     <Content Include="js\.DS_Store" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\RiversinnBooking - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
