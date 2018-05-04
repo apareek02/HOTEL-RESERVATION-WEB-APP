@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Net;
 using System.Net.Mail;
 using System.Configuration;
+using System.Web.Security;
 
 namespace Rough_bootstap
 {
@@ -16,10 +17,13 @@ namespace Rough_bootstap
         protected void Page_Load(object sender, EventArgs e)
         {
            if(!IsPostBack){
-                
-            
-               
-           }
+
+                if (this.Page.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect(FormsAuthentication.DefaultUrl);
+                }
+
+            }
         }
 
         protected void booknow_Click(object sender, EventArgs e)
@@ -109,5 +113,7 @@ namespace Rough_bootstap
 
             //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Subscribed Successfully')", true);
         }
+
+        
     }
 }

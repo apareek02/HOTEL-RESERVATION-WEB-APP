@@ -1,10 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Rough_bootstap.Home"%>
-
-
-<!--rishabh-->
 <!DOCTYPE HTML>
-
-
 <html>
 <head>
     <meta charset="utf-8">
@@ -95,17 +90,16 @@
                             <div class="col-xs-10 text-right ">
                                 <ul>
                                     <li class="active"><a href="Home.aspx">Home</a></li>
-                                    <li class="has-dropdown">
+                                    <li class ="active">
                                         <a href="Rooms.aspx">Rooms</a>
-
                                     </li>
                                     <li><a href="Dining.aspx">Dining &amp; Bar</a></li>
                                     <li><a href="Amenities.aspx">Aminities</a></li>
                                     <li><a href="Blog.aspx">Blog</a></li>
                                     <li><a href="About.aspx">About</a></li>
                                     <li><a href="Contact.aspx">Contact</a></li>
-                                    <li><h3><a><asp:LoginName ID ="LoginUserName" runat ="server" ForeColor="White" /></a></h3></li>
-                                     <li><asp:LoginStatus ID="LoginStatus1" runat="server"/></li>
+                                    <li><h3><asp:LoginName ID ="LoginUserName" runat ="server"/></h3></li>
+                                     <li class ="active"><asp:LoginStatus ID="LoginStatus1"  runat="server" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -538,7 +532,7 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-center animate-box">
-                            <a href="#">View all rooms <i class="icon-arrow-right3"></i></a>
+                            <a href="Rooms.aspx">View all rooms <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -755,7 +749,7 @@
                                     </a>
                                 </div>
                                 <div class="col-md-12 animate-box text-right">
-                                    <a href="#">View all blog post <i class="icon-arrow-right3"></i></a>
+                                    <a href="Blog.aspx">View all blog post <i class="icon-arrow-right3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -816,16 +810,16 @@
                             <span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                             <h2>Sign Up for a Newsletter</h2>
                             <p>Get A 50% Discounts in every Rooms, Book now!</p>
-                            <form class="form-inline qbstp-header-subscribe">
+                            
                                 <div class="row">
                                     <div class="col-md-12 col-md-offset-0">
-                                        <div class="form-group">
+                                        <div>
                                             <asp:TextBox id="SubscribeEmail" Style="background-color:white"  CssClass="form-control"  placeholder="Enter your email" runat="server"></asp:TextBox>
                                             <asp:Button id="SubButton" Text="Subscribe" runat="server" OnClick="SubButton_Click" CssClass="btn btn-primary"></asp:Button>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                           
                         </div>
                     </div>
                 </div>

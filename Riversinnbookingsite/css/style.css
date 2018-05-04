@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6, figure {
         color: #4586FF;
         padding: 4px 7px; }
   .colorlib-nav .top-menu {
-    padding: 40px 30px; }
-    @media screen and (max-width: 768px) {
+    padding: 5px; }
+    @media screen and (max-width: 100%) {
       .colorlib-nav .top-menu {
-        padding: 28px 1em; } }
+         padding:5px;} }
   .colorlib-nav #colorlib-logo {
     font-size: 24px;
     margin: 0;

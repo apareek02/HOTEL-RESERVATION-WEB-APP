@@ -105,7 +105,7 @@
                                     <li><a href="Blog.aspx">Blog</a></li>
                                     <li><a href="About.aspx">About</a></li>
                                     <li><a href="Contact.aspx">Contact</a></li>
-                                    <li><h3><asp:LoginName ID ="LoginUserName" runat ="server" ForeColor="White" /></h3></li>
+                                    <li><h3><asp:LoginName ID ="LoginUserName" runat ="server"/></h3></li>
                                      <li><asp:LoginStatus ID="LoginStatus1" runat="server"  /></li>
                                 </ul>
                             </div>
