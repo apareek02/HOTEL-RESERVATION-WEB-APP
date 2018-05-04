@@ -82,7 +82,7 @@ namespace RiversInnBookingWebsite
 
             using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
             {
-                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("Delete from Guest_Details where Guest_ID= @guest"))
+                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("Delete from Guest_Details where Guest_ID= @guestid"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
                     {

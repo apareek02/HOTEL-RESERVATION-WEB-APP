@@ -181,8 +181,8 @@
                         <br />
                         <br />
 
-                        <span style="font-size: larger; color: white; font-weight: bold">Enter Amount:</span>
-                        <asp:Label runat="server" ID="LblAmount" ForeColor="White" Font-Bold="true" Text="50" Style="margin-left: 16px; width: 200px; background-image: url('../images/txtBoxbg.jpg') no-repeat;"></asp:Label>
+                        <span style="font-size: larger; color: white; font-weight: bold"></span>
+                        <asp:Label runat="server" ID="LblAmount" ForeColor="White" Font-Bold="true" Text="0.01" Style="margin-left: 16px; width: 200px; background-image: url('../images/txtBoxbg.jpg') no-repeat;"></asp:Label>
 
                         <br />
                         <br />

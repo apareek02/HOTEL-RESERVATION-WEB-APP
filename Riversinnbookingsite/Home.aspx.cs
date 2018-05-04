@@ -30,9 +30,8 @@ namespace Rough_bootstap
             int childs = 1;
             //childs = int.Parse(people.SelectedValue.ToString());
             //int.Parse(children.SelectedValue.ToString());
-            Random rand = new Random((int)DateTime.Now.Ticks);
             int guestid = 200;
-            guestid = rand.Next(200, 1000);
+            guestid = 200+1;
 
             DateTime chindt = DateTime.Today;
             //Convert.ToDateTime(checkindate.ToString());
@@ -41,6 +40,18 @@ namespace Rough_bootstap
             string constr = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
             using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
             {
+                using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("Delete From TempBooking"))
+                {
+                    using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
+                    {
+
+                        cmd.CommandType = System.Data.CommandType.Text;
+                        cmd.Connection = con;
+                        con.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        con.Close();
+                    }
+                }
                 using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("INSERT INTO [dbo].[TempBooking] ([Guest_id], [Total_Adult], [Total_Child], [Check_In_Date], [Check_Out_Date], [Booking_Date]) VALUES ( @guestid,@adult, @child, @checkin, @checkout,GETDATE())"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())

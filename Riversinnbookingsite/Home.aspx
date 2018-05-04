@@ -508,7 +508,7 @@
                                         <h3><a href="Rooms.aspx">Superior Double Room</a></h3>
                                         <p class="price">
                                             <span class="currency">$</span>
-                                            <span class="price-room">50</span>
+                                            <span class="price-room">0.01</span>
                                             <span class="per">/ per night</span>
                                         </p>
                                         <ul>
