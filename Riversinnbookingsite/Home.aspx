@@ -100,7 +100,6 @@
                                     <li><a href="Contact.aspx">Contact</a></li>
                                     <li><asp:LoginName ID ="LoginUserName" runat ="server" ForeColor="CornflowerBlue" Font-Bold="true"/></li>
                                      <asp:Button runat="server" ID="login" OnClick="login_Click" style="background:center;background-color:aqua" Font-Bold="true"/>
-                                    <asp:Label runat="server" ID="test"></asp:Label>
                                 </ul>
                             </div>
                         </div>
