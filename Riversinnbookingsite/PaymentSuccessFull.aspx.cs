@@ -58,7 +58,7 @@ namespace RiversInnBookingWebsite
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
                     {
-
+                            bid = bid + 1;
                         command.CommandType = System.Data.CommandType.Text;
                             command.Parameters.AddWithValue("@bid", bid);
                             command.Parameters.AddWithValue("@gid", gid);
