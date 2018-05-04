@@ -92,20 +92,13 @@
                                     <li class="active"><a href="Home.aspx">Home</a></li>
                                     <li class="has-dropdown">
                                         <a href="Rooms.aspx">Rooms</a>
-                                        <ul class="dropdown">
-                                            <li><a href="#">Suite</a></li>
-                                            <li><a href="#">Double Room</a></li>
-                                            <li><a href="#">Family Room</a></li>
-                                            <li><a href="#">Classic Double</a></li><li><a href="#">Superior Double</a></li><li><a href="#">Superior Family</a></li>
-                                            
-                                        </ul>
                                     </li>
                                     <li><a href="Dining.aspx">Dining &amp; Bar</a></li>
                                     <li><a href="Amenities.aspx">Aminities</a></li>
                                     <li><a href="Blog.aspx">Blog</a></li>
                                     <li><a href="About.aspx">About</a></li>
                                     <li><a href="Contact.aspx">Contact</a></li>
-                                    <li><h3><asp:LoginName ID ="LoginUserName" runat ="server"/></h3></li>
+                                    <li><asp:LoginName ID ="LoginUserName" runat ="server"/></li>
                                      <li><asp:LoginStatus ID="LoginStatus1" runat="server"  /></li>
                                 </ul>
                             </div>

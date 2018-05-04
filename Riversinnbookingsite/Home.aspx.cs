@@ -110,6 +110,19 @@ namespace Rough_bootstap
             //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Subscribed Successfully')", true);
         }
 
-        
+        protected void login_Click(object sender, EventArgs e)
+        {
+            if (this.Page.User.Identity.IsAuthenticated)
+            {
+                login.Text = "Logout";
+                Response.Redirect(FormsAuthentication.DefaultUrl);
+            }
+            else
+            {
+                login.Text = "Login";
+                Response.Redirect(FormsAuthentication.LoginUrl);
+
+            }
+        }
     }
 }

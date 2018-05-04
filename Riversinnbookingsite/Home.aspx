@@ -98,8 +98,9 @@
                                     <li><a href="Blog.aspx">Blog</a></li>
                                     <li><a href="About.aspx">About</a></li>
                                     <li><a href="Contact.aspx">Contact</a></li>
-                                    <li><h3><asp:LoginName ID ="LoginUserName" runat ="server"/></h3></li>
-                                     <li class ="active"><asp:LoginStatus ID="LoginStatus1"  runat="server" /></li>
+                                    <li><asp:LoginName ID ="LoginUserName" runat ="server" ForeColor="CornflowerBlue" Font-Bold="true"/></li>
+                                     <asp:Button runat="server" ID="login" OnClick="login_Click" style="background:center;background-color:transparent" Text="Login"/>
+                                    
                                 </ul>
                             </div>
                         </div>

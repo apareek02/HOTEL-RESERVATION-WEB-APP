@@ -21,9 +21,6 @@ namespace RiversInnBookingWebsite
             if (!IsPostBack)
             {
                 
-                
-
-
                     string constring = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
                     SqlConnection con = new SqlConnection(constring);
                     con.Open();
