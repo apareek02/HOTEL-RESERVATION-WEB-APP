@@ -17,8 +17,16 @@ namespace Rough_bootstap
         protected void Page_Load(object sender, EventArgs e)
         {
            if(!IsPostBack){
+                
+                if (this.Page.User.Identity.IsAuthenticated)
+                {
+                    login.Text = "Logout";
+                }
+                else
+                {
+                    login.Text = "Login";
 
-
+                }
             }
         }
 
@@ -32,7 +40,6 @@ namespace Rough_bootstap
             //int.Parse(children.SelectedValue.ToString());
             int guestid = 200;
             guestid = 200+1;
-
             DateTime chindt = DateTime.Today;
             //Convert.ToDateTime(checkindate.ToString());
             chindt = DateTime.Parse(checkindate.Text.ToString());

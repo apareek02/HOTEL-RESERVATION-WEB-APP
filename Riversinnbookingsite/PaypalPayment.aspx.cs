@@ -77,33 +77,32 @@ namespace RiversInnBookingWebsite
         }
         protected void btnPay_Click(object sender, EventArgs e)
         {
-            int guestid = getID();
+            //int guestid = getID();
             string constr = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
-            using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
-            {
-                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("Delete from Guest_Details where Guest_ID= @guestid"))
-                {
-                    using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
-                    {
-                        command.CommandType = System.Data.CommandType.Text;
-                        command.Parameters.AddWithValue("@guestid", guestid);
-                        command.Connection = con;
-                        con.Open();
-                        command.ExecuteScalar();
-                        con.Close();
+            //using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
+            //{
+            //    using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("Delete from Guest_Details where Guest_ID= @guestid"))
+            //    {
+            //        using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
+            //        {
+            //            command.CommandType = System.Data.CommandType.Text;
+            //            command.Parameters.AddWithValue("@guestid", guestid);
+            //            command.Connection = con;
+            //            con.Open();
+            //            command.ExecuteScalar();
+            //            con.Close();
 
-                    }
-                }
-            }
+            //        }
+            //    }
+            //}
             using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
             {
-                    using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("INSERT INTO Guest_Details VALUES(@guestid,@FirstName, @LastName,@EmailId,@Username,@Address,@City,@State,@Zip)"))
+                    using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("INSERT INTO Guest_Details VALUES(@FirstName, @LastName,@EmailId,@Username,@Address,@City,@State,@Zip)"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
                     {
                         cmd.CommandType = System.Data.CommandType.Text;
-                        cmd.Parameters.AddWithValue("@guestid", guestid);
                         cmd.Parameters.AddWithValue("@Username", this.Page.User.ToString());
                         cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
                         cmd.Parameters.AddWithValue("@FirstName", txtName.Text);
@@ -129,11 +128,10 @@ namespace RiversInnBookingWebsite
 
             using (System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(constr))
             {
-                using (System.Data.SqlClient.SqlCommand getGuestid = new System.Data.SqlClient.SqlCommand("Select Guest_id from TempBooking where Booking_Date=@date"))
+                using (System.Data.SqlClient.SqlCommand getGuestid = new System.Data.SqlClient.SqlCommand("Select Guest_id from TempBooking where Booking_Date=GETDATE()"))
                 {
                     using (System.Data.SqlClient.SqlDataAdapter da = new System.Data.SqlClient.SqlDataAdapter())
                     {
-                        getGuestid.Parameters.AddWithValue("@date", DateTime.Now.Date);
                         getGuestid.Connection = con;
                         con.Open();
                         id = Convert.ToInt32(getGuestid.ExecuteScalar());
