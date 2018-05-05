@@ -48,27 +48,27 @@ namespace RiversInnBookingWebsite
 
 
                 string constr = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-
-                
-                using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("INSERT  INTO Booking (Guest_id,Total_Adult,Total_Child,Check_In_Date,Check_Out_Date,Booking_Date) Values(@gid,@ta,@tc,@cin,@cout,@bdate)"))
+                using (SqlConnection connection = new SqlConnection(constr))
                 {
-                    using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
+                    using (System.Data.SqlClient.SqlCommand command = new System.Data.SqlClient.SqlCommand("INSERT  INTO Booking (Guest_id,Total_Adult,Total_Child,Check_In_Date,Check_Out_Date,Booking_Date) Values(@gid,@ta,@tc,@cin,@cout,GetDate())"))
                     {
+                        using (System.Data.SqlClient.SqlDataAdapter sda = new System.Data.SqlClient.SqlDataAdapter())
+                        {
                             bid = bid + 1;
-                        command.CommandType = System.Data.CommandType.Text;
+                            command.CommandType = System.Data.CommandType.Text;
                             command.Parameters.AddWithValue("@gid", gid);
                             command.Parameters.AddWithValue("@ta", adults);
                             command.Parameters.AddWithValue("@tc", child);
                             command.Parameters.AddWithValue("@cin", cin);
                             command.Parameters.AddWithValue("@cout", cout);
                             command.Parameters.AddWithValue("@bdate", bdate);
-                            command.Connection = con;
-                        con.Open();
+                            command.Connection = connection;
+                            con.Open();
                             command.ExecuteScalar();
-                        con.Close();
+                            con.Close();
+                        }
                     }
                 }
-            
             deleteTempBookingData();
             Response.Redirect("GenerateReport.aspx");
         }
