@@ -5,7 +5,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>RIVERSINN Template</title>
+	<title>RIVERSINN</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -101,7 +101,7 @@
 									</ul>
 								</li>
 								<li class="active"><a href="Dining.aspx">Dining &amp; Bar</a></li>
-								<li><a href="Amenities.aspx">Aminities</a></li>
+								<li><a href="Amenities.aspx">Amenities</a></li>
 								<li><a href="Blog.aspx">Blog</a></li>
 								<li><a href="About.aspx">About</a></li>
 								<li><a href="Contact.aspx">Contact</a></li>

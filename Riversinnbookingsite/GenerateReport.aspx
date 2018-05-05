@@ -104,7 +104,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="Dining.aspx">Dining &amp; Bar</a></li>
-                                    <li><a href="Amenities.aspx">Aminities</a></li>
+                                    <li><a href="Amenities.aspx">Amenities</a></li>
                                     <li><a href="Blog.aspx">Blog</a></li>
                                     <li><a href="About.aspx">About</a></li>
                                     <li><a href="Contact.aspx">Contact</a></li>
