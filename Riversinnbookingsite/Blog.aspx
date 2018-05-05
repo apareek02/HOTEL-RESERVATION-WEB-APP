@@ -146,7 +146,7 @@
 									</p>
 								</div>
 								<h2><a href="#">A Definitive Guide to the Best Dining</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui quod ipsum harum id, minima nesciunt! Saepe soluta, vitae quas expedita voluptatem voluptates placeat numquam provident quis, atque nisi iure?</p>
+								<p>We had the contintental breakfast package and it was quite good. Fresh fruit, yogurt, pastries, oatmeal, coffee, juice, bacon, etc. Plenty to eat and the best deal. Individual meals seemed kind of pricey.</p>
 							</div>
 						</article>
 						<article class="animate-box">
@@ -160,7 +160,10 @@
 									</p>
 								</div>
 								<h2><a href="#">How These 5 People Found The Path to Their Dream Trip</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui quod ipsum harum id, minima nesciunt! Saepe soluta, vitae quas expedita voluptatem voluptates placeat numquam provident quis, atque nisi iure?</p>
+								<p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.
+
+ 
+ A true blend of intimate charm and relaxation, the River Inn fulfills a very important role: to personalize every experience to the distinct needs of each guest, allowing you to abandon the ordinary and to experience DC in a relaxing, personal environment.</p>
 							</div>
 						</article>
 						<article class="animate-box">

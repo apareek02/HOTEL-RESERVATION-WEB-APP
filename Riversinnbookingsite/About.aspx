@@ -136,8 +136,8 @@
 					<div class="col-md-6">
 						<div class="about animate-box">
 							<h2>Welcome to our Hotel</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+							<p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
+							<p>A true blend of intimate charm and relaxation, the River Inn fulfills a very important role: to personalize every experience to the distinct needs of each guest, allowing you to abandon the ordinary and to experience DC in a relaxing, personal environment.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -153,7 +153,7 @@
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
 						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
 						<h2>Our Satisfied Guests says</h2>
-						<p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>The River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -163,7 +163,7 @@
 						<span class="user">Brian Doe</span>
 						<small>Satisfied Customer</small>
 						<blockquote>
-							<p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<p></i>Definitely best-kept secret! This is a great place to stay - so comfortable, the accommodations are superior! A little dated perhaps - but its so comfortable, made me enjoy travel all over again. Try the restaurant in the building, the cuisine is to die for!! The staff is super accommodating - I am so happy that my "regular" hotel couldn't accommodate my visit this time so that I could stay here - can't wait to make it my regular when visiting the area!</p>
 						</blockquote>
 					</div>
 				</div>
@@ -173,7 +173,8 @@
 						<span class="user">Nathalie Miller</span>
 						<small>Satisfied Customer</small>
 						<blockquote>
-							<p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<p></i>This hotel is located on a lovely street. We didn't have to use any other transport whilst we were in Leon apart from our feet!
+The welcome from reception and the valet was super. They were welcoming and answered all our questions about the area. </p>
 						</blockquote>
 					</div>
 				</div>
@@ -183,7 +184,7 @@
 						<span class="user">Shara Jones</span>
 						<small>Satisfied Customer</small>
 						<blockquote>
-							<p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<p></i> I was familiar with the neighborhood and wanted to stay close to family living nearby. Great location for getting around the city. </p>
 						</blockquote>
 					</div>
 				</div>

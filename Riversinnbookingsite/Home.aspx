@@ -421,7 +421,7 @@
                         <div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
                             <span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                             <h2>Rooms &amp; Suites</h2>
-                            <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -545,7 +545,7 @@
                         <div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
                             <span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                             <h2>Dining &amp; Bar</h2>
-                            <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -708,7 +708,7 @@
                         <div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
                             <span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                             <h2>Recent Blog</h2>
-                            <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
                         </div>
                     </div>
                     <div class="blog-flex">
@@ -763,7 +763,7 @@
                         <div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
                             <span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                             <h2>Our Satisfied Guests says</h2>
-                            <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>the River Inn strikes the perfect balance between relaxation and serenity, while still embracing the spirit of its city. Make yourself at home in spacious suites with full kitchens as well as a comfortable dining & living area. Experience seasonal American cuisine and hand-crafted cocktails at our cozy intimate bistro, DISH + Drinks, or explore the path with one of our very own Priority Bicycles. Enjoy beautiful views of the Little River Watershed Lake and the picturesque shops and restaurants of the town.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -773,7 +773,7 @@
                                 <span class="user">Brian Doe</span>
                                 <small>Satisfied Customer</small>
                                 <blockquote>
-                                    <p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p></i> Definitely best-kept secret! This is a great place to stay - so comfortable, the accommodations are superior! A little dated perhaps - but its so comfortable, made me enjoy travel all over again. Try the restaurant in the building, the cuisine is to die for!! The staff is super accommodating - I am so happy that my "regular" hotel couldn't accommodate my visit this time so that I could stay here - can't wait to make it my regular when visiting the area.</p>
                                 </blockquote>
                             </div>
                         </div>
@@ -783,7 +783,8 @@
                                 <span class="user">Nathalie Miller</span>
                                 <small>Satisfied Customer</small>
                                 <blockquote>
-                                    <p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p></i> This hotel is located on a lovely street. We didn't have to use any other transport whilst we were in Leon apart from our feet!
+The welcome from reception and the valet was super. They were welcoming and answered all our questions about the area.</p>
                                 </blockquote>
                             </div>
                         </div>
@@ -793,7 +794,7 @@
                                 <span class="user">Shara Jones</span>
                                 <small>Satisfied Customer</small>
                                 <blockquote>
-                                    <p></i> Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p></i>I was familiar with the neighborhood and wanted to stay close to family living nearby. Great location for getting around the city. The room was very large. I didn't even realize when booking that it had a full kitchen - large fridge, stove, microwave, sink, coffee maker, etc. The bathroom was beautifully done - rainfall shower head, stylish finishes, etc. Very comfortable accommodations.</p>
                                 </blockquote>
                             </div>
                         </div>
