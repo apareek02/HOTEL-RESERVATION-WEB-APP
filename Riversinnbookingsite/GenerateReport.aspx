@@ -165,9 +165,6 @@
                                 Check_Out_Date:
                                 <asp:TextBox ID="Check_Out_DateTextBox" runat="server" Text='<%# Bind("Check_Out_Date") %>' />
                                 <br />
-                                Payment_Status:
-                                <asp:TextBox ID="Payment_StatusTextBox" runat="server" Text='<%# Bind("Payment_Status") %>' />
-                                <br />
                                 Booking_Date:
                                 <asp:TextBox ID="Booking_DateTextBox" runat="server" Text='<%# Bind("Booking_Date") %>' />
                                 <br />
@@ -178,9 +175,6 @@
                             <FooterStyle BackColor="#5D7B9D" ForeColor="White" Font-Bold="True" />
                             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                             <InsertItemTemplate>
-                                Booking_id:
-                                <asp:TextBox ID="Booking_idTextBox" runat="server" Text='<%# Bind("Booking_id") %>' />
-                                <br />
                                 Total_Adult:
                                 <asp:TextBox ID="Total_AdultTextBox" runat="server" Text='<%# Bind("Total_Adult") %>' />
                                 <br />
@@ -192,9 +186,6 @@
                                 <br />
                                 Check_Out_Date:
                                 <asp:TextBox ID="Check_Out_DateTextBox" runat="server" Text='<%# Bind("Check_Out_Date") %>' />
-                                <br />
-                                Payment_Status:
-                                <asp:TextBox ID="Payment_StatusTextBox" runat="server" Text='<%# Bind("Payment_Status") %>' />
                                 <br />
                                 Booking_Date:
                                 <asp:TextBox ID="Booking_DateTextBox" runat="server" Text='<%# Bind("Booking_Date") %>' />
@@ -218,9 +209,6 @@
                                 Check_Out_Date:
                                 <asp:Label ID="Check_Out_DateLabel" runat="server" Text='<%# Bind("Check_Out_Date") %>' />
                                 <br />
-                                Payment_Status:
-                                <asp:Label ID="Payment_StatusLabel" runat="server" Text='<%# Bind("Payment_Status") %>' />
-                                <br />
                                 Booking_Date:
                                 <asp:Label ID="Booking_DateLabel" runat="server" Text='<%# Bind("Booking_Date") %>' />
                                 <br />
@@ -230,7 +218,7 @@
                             <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
                         </asp:FormView>
     
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RiversInnConnectionString %>" SelectCommand="SELECT [Booking_id], [Total_Adult], [Total_Child], [Check_In_Date], [Check_Out_Date], [Payment_Status], [Booking_Date] FROM [Booking]"></asp:SqlDataSource>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RiversInnConnectionString %>" SelectCommand="SELECT [Booking_id], [Total_Adult], [Total_Child], [Check_In_Date], [Check_Out_Date], [Booking_Date] FROM [TempBooking]"></asp:SqlDataSource>
     
                     </div>
                     <div class="col-md-4">
